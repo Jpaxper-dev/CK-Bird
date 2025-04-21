@@ -1,0 +1,397 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1745238518809224, "dur":67, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1745238518809322, "dur":40375, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1745238518849707, "dur":162, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1745238518849934, "dur":605, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1745238518850810, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1745238518851720, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":0, "ts":1745238518854072, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1745238518854130, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1745238518854607, "dur":98, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1745238518850579, "dur":5709, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1745238518856289, "dur":3720073, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1745238522576363, "dur":259, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1745238522576919, "dur":2320, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1745238518850785, "dur":5521, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1745238518859049, "dur":1449, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/il2cpp/build/deploy" }}
+,{ "pid":12345, "tid":1, "ts":1745238518860499, "dur":8750, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/il2cpp/libil2cpp" }}
+,{ "pid":12345, "tid":1, "ts":1745238518869250, "dur":156, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport" }}
+,{ "pid":12345, "tid":1, "ts":1745238518869406, "dur":1614, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono" }}
+,{ "pid":12345, "tid":1, "ts":1745238518871020, "dur":106, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources" }}
+,{ "pid":12345, "tid":1, "ts":1745238518871126, "dur":233, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Tools/BuildPipeline" }}
+,{ "pid":12345, "tid":1, "ts":1745238518871359, "dur":183, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Library/PlayerDataCache/Win642/Data" }}
+,{ "pid":12345, "tid":1, "ts":1745238518856316, "dur":15303, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1745238518871633, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteResponseFile Library/Bee/artifacts/rsp/12747982855926972570.rsp" }}
+,{ "pid":12345, "tid":1, "ts":1745238518871701, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1745238518872223, "dur":156, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745238518872382, "dur":236, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745238518872624, "dur":144, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745238518872771, "dur":163, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745238518872937, "dur":115, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745238518873054, "dur":187, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745238518873243, "dur":116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745238518873367, "dur":390, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745238518873760, "dur":590, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745238518874359, "dur":1130, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745238518875497, "dur":116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745238518875620, "dur":93, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745238518875716, "dur":697, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745238518876416, "dur":116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745238518876541, "dur":418, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Rendering.LightTransport.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745238518876967, "dur":110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745238518877080, "dur":975, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745238518878064, "dur":137, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.Shared.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745238518878210, "dur":130, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745238518878347, "dur":195, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.GPUDriven.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745238518878548, "dur":100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745238518878653, "dur":275, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.2D.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745238518878940, "dur":105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745238518879048, "dur":926, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745238518879994, "dur":98, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745238518880099, "dur":499, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745238518880606, "dur":275, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745238518880884, "dur":505, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745238518881390, "dur":337, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745238518881729, "dur":165, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745238518881897, "dur":248, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745238518882802, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\artifacts\\UnityLinkerInputs\\MethodsToPreserve.xml" }}
+,{ "pid":12345, "tid":1, "ts":1745238518882887, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\artifacts\\UnityLinkerInputs\\TypesInScenes.xml" }}
+,{ "pid":12345, "tid":1, "ts":1745238518882953, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\artifacts\\UnityLinkerInputs\\SerializedTypes.xml" }}
+,{ "pid":12345, "tid":1, "ts":1745238518883026, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Temp\\InputSystemLink.xml" }}
+,{ "pid":12345, "tid":1, "ts":1745238518883088, "dur":8665, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\artifacts\\UnityLinkerInputs\\EditorToUnityLinkerData.json" }}
+,{ "pid":12345, "tid":1, "ts":1745238518871835, "dur":20280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker C:/Users/achil/Documents/oyunlar deneme/Ck Bird/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1745238518892117, "dur":3820, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1745238518904054, "dur":7009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":1, "ts":1745238518914421, "dur":3659538, "ph":"X", "name": "GenerateNativePluginsForAssemblies",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":1, "ts":1745238522574614, "dur":386, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\AsyncPluginsFromLinker\\x86_64\\lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745238522574580, "dur":421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745238522575146, "dur":1165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1745238518850826, "dur":5512, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1745238518856349, "dur":2701, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1745238518859050, "dur":1626, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1745238518860677, "dur":1468, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1745238518862145, "dur":958, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1745238518863103, "dur":8533, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1745238518871639, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1745238518871831, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1745238518871907, "dur":160, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1745238518872068, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1745238518872177, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1745238518874392, "dur":6658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":2, "ts":1745238518881109, "dur":22946, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1745238518904056, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1745238518904504, "dur":6109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1745238518910629, "dur":5957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1745238518916602, "dur":6065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1745238518922684, "dur":6435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1745238518929137, "dur":10233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1745238518939399, "dur":4467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1745238518943882, "dur":6615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1745238518950516, "dur":6759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1745238518957287, "dur":5614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1745238518963039, "dur":6703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1745238518969765, "dur":6214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1745238518976014, "dur":5601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1745238518981635, "dur":5080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1745238518986717, "dur":3589678, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1745238518850809, "dur":5513, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1745238518856334, "dur":1960, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1745238518858365, "dur":529, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\il2cpp-compile.runtimeconfig.json" }}
+,{ "pid":12345, "tid":3, "ts":1745238518858294, "dur":2801, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1745238518861096, "dur":1186, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1745238518862283, "dur":9349, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1745238518871634, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1745238518871949, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1745238518872035, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1745238518872126, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1745238518872197, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1745238518872299, "dur":180, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1745238518872916, "dur":4526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1745238518877526, "dur":6998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1745238518884609, "dur":19525, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1745238518904231, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1745238518904468, "dur":5608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1745238518910078, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1745238518910188, "dur":5749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1745238518915956, "dur":5105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1745238518921081, "dur":5807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1745238518926905, "dur":5584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1745238518932504, "dur":9461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1745238518941988, "dur":6305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1745238518948308, "dur":6920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1745238518955286, "dur":77, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1745238518955367, "dur":6131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":3, "ts":1745238518961516, "dur":6149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/Unity.RenderPipelines.GPUDriven.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1745238518967697, "dur":5251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":3, "ts":1745238518972967, "dur":6099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1745238518979118, "dur":5835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":3, "ts":1745238518984958, "dur":3591466, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1745238518850869, "dur":5483, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1745238518856361, "dur":2466, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1745238518858828, "dur":2240, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1745238518861069, "dur":1840, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1745238518862909, "dur":8716, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1745238518871633, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1745238518871821, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1745238518871923, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1745238518872023, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1745238518872103, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1745238518872197, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1745238518872859, "dur":4828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1745238518877771, "dur":6707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1745238518884534, "dur":19624, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1745238518904159, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1745238518904587, "dur":5728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1745238518910317, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1745238518910389, "dur":6078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1745238518916485, "dur":5711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1745238518922234, "dur":6079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1745238518928331, "dur":6787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1745238518935138, "dur":6438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1745238518941594, "dur":6310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1745238518947920, "dur":7550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1745238518955490, "dur":6233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1745238518961739, "dur":6133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1745238518967891, "dur":5363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1745238518973272, "dur":6742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":4, "ts":1745238518980028, "dur":6393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1745238518986423, "dur":3589981, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1745238518850918, "dur":5446, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1745238518856374, "dur":2458, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1745238518858833, "dur":1722, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1745238518860555, "dur":1550, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1745238518862106, "dur":1335, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1745238518863442, "dur":8200, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1745238518871643, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1745238518871802, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1745238518871881, "dur":51, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1745238518871934, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1745238518872046, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1745238518872128, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/CK Bird.exe" }}
+,{ "pid":12345, "tid":5, "ts":1745238518873112, "dur":4400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird.exe" }}
+,{ "pid":12345, "tid":5, "ts":1745238518877599, "dur":5027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1745238518882683, "dur":21364, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1745238518904048, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1745238518904324, "dur":4095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1745238518908443, "dur":5852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1745238518914335, "dur":5414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1745238518919792, "dur":5937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1745238518925749, "dur":5748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1745238518931514, "dur":8579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1745238518940096, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1745238518940171, "dur":4887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1745238518945080, "dur":6248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1745238518951346, "dur":6181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1745238518957543, "dur":5490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1745238518963044, "dur":6979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1745238518970038, "dur":6396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1745238518976453, "dur":5503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1745238518981957, "dur":3594410, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1745238518850952, "dur":5430, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1745238518856395, "dur":2582, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1745238518858978, "dur":2135, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1745238518861114, "dur":1817, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1745238518862932, "dur":8702, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1745238518871635, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1745238518871805, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1745238518871930, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1745238518872063, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1745238518872180, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/D3D12/D3D12Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1745238518872354, "dur":154, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1745238518872523, "dur":90, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win642\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1745238518872517, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1745238518872879, "dur":5075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1745238518878018, "dur":6081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1745238518884473, "dur":19645, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1745238518904130, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":6, "ts":1745238518904387, "dur":5479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":6, "ts":1745238518909886, "dur":5916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1745238518915815, "dur":5223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1745238518921059, "dur":6126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1745238518927206, "dur":5656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1745238518932881, "dur":9376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":6, "ts":1745238518942333, "dur":4811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1745238518947165, "dur":7663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1745238518954850, "dur":6966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1745238518961834, "dur":6374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1745238518968229, "dur":5381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1745238518973628, "dur":5715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1745238518979365, "dur":5983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1745238518985350, "dur":3591011, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1745238518851009, "dur":5390, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1745238518856409, "dur":1997, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1745238518858406, "dur":2680, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1745238518861086, "dur":1870, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1745238518862956, "dur":8671, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1745238518871634, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1745238518871799, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1745238518871886, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1745238518871992, "dur":302, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1745238518872294, "dur":58, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1745238518877686, "dur":53, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1745238518872871, "dur":4878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1745238518877829, "dur":4852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1745238518882743, "dur":21403, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1745238518904154, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1745238518904578, "dur":5850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1745238518910502, "dur":5904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1745238518916418, "dur":5546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":7, "ts":1745238518921982, "dur":6038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1745238518928039, "dur":5489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1745238518933576, "dur":7861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1745238518941461, "dur":5817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1745238518947297, "dur":6262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1745238518953592, "dur":6249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1745238518959903, "dur":5379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1745238518965303, "dur":6095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1745238518971418, "dur":6517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/Unity.Rendering.LightTransport.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1745238518977955, "dur":6569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1745238518984528, "dur":3591910, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1745238518851046, "dur":5368, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1745238518856426, "dur":2809, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1745238518859236, "dur":1424, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1745238518860661, "dur":1641, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1745238518862302, "dur":9327, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1745238518871634, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1745238518871794, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1745238518871904, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1745238518872029, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1745238518872106, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1745238518872200, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1745238518872270, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1745238518872390, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1745238518872871, "dur":5201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1745238518878146, "dur":8252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1745238518886435, "dur":17630, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1745238518904082, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1745238518904574, "dur":6086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1745238518910676, "dur":6222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1745238518916913, "dur":6080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1745238518923010, "dur":6232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1745238518929315, "dur":10082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1745238518939437, "dur":4163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1745238518943620, "dur":6801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1745238518950442, "dur":7308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1745238518957769, "dur":5605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1745238518963391, "dur":6560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1745238518969969, "dur":6485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1745238518976474, "dur":5774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1745238518982250, "dur":3594114, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1745238518851095, "dur":5337, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1745238518856444, "dur":2891, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1745238518859336, "dur":1933, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1745238518861272, "dur":1771, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1745238518863043, "dur":8610, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1745238518871656, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1745238518871844, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1745238518871961, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1745238518872078, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1745238518872174, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1745238518873019, "dur":6791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1745238518879880, "dur":24169, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1745238518904050, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1745238518904536, "dur":5397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1745238518909953, "dur":5279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1745238518915254, "dur":5163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1745238518920436, "dur":6229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1745238518926687, "dur":5724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1745238518932430, "dur":6050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1745238518938505, "dur":4375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1745238518942897, "dur":6393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1745238518949310, "dur":6743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1745238518956084, "dur":6234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1745238518962331, "dur":6273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1745238518968622, "dur":6451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1745238518975126, "dur":6065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1745238518981216, "dur":5922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1745238518987140, "dur":3589241, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1745238518851128, "dur":5323, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1745238518856462, "dur":2878, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1745238518859340, "dur":1278, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1745238518860618, "dur":1440, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1745238518862059, "dur":1185, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1745238518863245, "dur":8386, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1745238518871640, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1745238518871820, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1745238518871900, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1745238518872003, "dur":309, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1745238518872961, "dur":6017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1745238518879058, "dur":5873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1745238518884991, "dur":19110, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1745238518904119, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1745238518904570, "dur":5651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1745238518910269, "dur":5913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1745238518916202, "dur":5309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1745238518921529, "dur":6136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1745238518927684, "dur":6400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1745238518934111, "dur":58, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1745238518934174, "dur":7364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1745238518941548, "dur":79, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1745238518941630, "dur":5692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":10, "ts":1745238518947339, "dur":7793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1745238518955156, "dur":6190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/Unity.RenderPipelines.Universal.2D.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1745238518961367, "dur":6821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1745238518968207, "dur":5517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":10, "ts":1745238518973765, "dur":6026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.AMDModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1745238518979807, "dur":6656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1745238518986465, "dur":3589948, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1745238518851158, "dur":5308, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1745238518858501, "dur":550, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.24f1\\Editor\\Data\\il2cpp\\build\\deploy\\NiceIO.dll" }}
+,{ "pid":12345, "tid":11, "ts":1745238518856476, "dur":2920, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1745238518859396, "dur":1649, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1745238518861045, "dur":1637, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1745238518862682, "dur":8939, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1745238518871633, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":11, "ts":1745238518872927, "dur":754, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":11, "ts":1745238518873690, "dur":2891, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win642\\Data\\boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1745238518876839, "dur":336, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Rendering.LightTransport.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1745238518877182, "dur":884, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1745238518878069, "dur":170, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.Shared.dll" }}
+,{ "pid":12345, "tid":11, "ts":1745238518878241, "dur":133, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":11, "ts":1745238518878377, "dur":705, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.GPUDriven.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1745238518879093, "dur":882, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1745238518879980, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":11, "ts":1745238518880098, "dur":511, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1745238518880611, "dur":262, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1745238518880880, "dur":522, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1745238518881404, "dur":318, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1745238518881724, "dur":157, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1745238518881888, "dur":236, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\achil\\Documents\\oyunlar deneme\\Ck Bird\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1745238518882811, "dur":135, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Playerb29f8b67-inputdata.json" }}
+,{ "pid":12345, "tid":11, "ts":1745238518873682, "dur":9361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1745238518884088, "dur":266, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1745238518884857, "dur":199664, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1745238519106399, "dur":1723, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1745238519106369, "dur":1754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1745238519108147, "dur":1319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1745238519109470, "dur":3466899, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1745238518851201, "dur":5281, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1745238518856483, "dur":2317, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1745238518858800, "dur":1697, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1745238518860498, "dur":1884, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1745238518862383, "dur":9240, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1745238518872325, "dur":80, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1745238518872702, "dur":697, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":12, "ts":1745238518873400, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/app.info" }}
+,{ "pid":12345, "tid":12, "ts":1745238518873464, "dur":5475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/app.info" }}
+,{ "pid":12345, "tid":12, "ts":1745238518878958, "dur":6250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":12, "ts":1745238518885265, "dur":18819, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1745238518904100, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1745238518904339, "dur":4324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1745238518908665, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1745238518908848, "dur":4556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1745238518913426, "dur":5152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1745238518918592, "dur":6847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1745238518925464, "dur":5797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1745238518940922, "dur":84, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1745238518931279, "dur":9772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1745238518941074, "dur":5161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1745238518946253, "dur":5638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1745238518951909, "dur":6893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1745238518958817, "dur":5542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1745238518964381, "dur":6296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1745238518970697, "dur":6132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/Unity.RenderPipelines.Core.Runtime.Shared.dll" }}
+,{ "pid":12345, "tid":12, "ts":1745238518976846, "dur":5939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/achil/Desktop/Ck Bird/CK Bird_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1745238518982787, "dur":3593572, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1745238522583073, "dur":1764, "ph":"X", "name": "ProfilerWriteOutput" }
+,
